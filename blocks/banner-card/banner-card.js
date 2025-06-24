@@ -1,3 +1,4 @@
-export const decorate=(el)=>{
-    console.log('decorate', el);
+export default function decorate(block) {
+  // eslint-disable-next-line no-console
+  console.log('decorate', block);
 }
